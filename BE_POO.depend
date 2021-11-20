@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1635158874 source:g:\mesdocs\documents\2a\cpp\be_poo\main.cpp
+	<iostream>
+	<stdio.h>
+	"source.h"
+	"circuit.h"
+
+1634806101 source:g:\mesdocs\documents\2a\cpp\be_poo\source.cpp
+	"source.h"
+	<cmath>
+	<iostream>
+
+1635157031 g:\mesdocs\documents\2a\cpp\be_poo\source.h
+
+1634498813 source:c:\users\trykerz\desktop\n7\poo\be\main.cpp
+	<iostream>
+	"source.h"
+
+1634493032 c:\users\trykerz\desktop\n7\poo\be\source.h
+
+1635158982 g:\mesdocs\documents\2a\cpp\be_poo\circuit.h
+
+1637232190 source:\\n7fs\ahuvelin\mesdocs\documents\2a\cpp\be_poo\main.cpp
+	<iostream>
+	<stdio.h>
+	"source.h"
+	"circuit.h"
+
+1637222464 \\n7fs\ahuvelin\mesdocs\documents\2a\cpp\be_poo\source.h
+
+1637231946 \\n7fs\ahuvelin\mesdocs\documents\2a\cpp\be_poo\circuit.h
+	"source.h"
+
+1637222971 source:\\n7fs\ahuvelin\mesdocs\documents\2a\cpp\be_poo\source.cpp
+	"source.h"
+	<cmath>
+	<iostream>
+
+1637232045 source:\\n7fs\ahuvelin\mesdocs\documents\2a\cpp\be_poo\circuit.cpp
+	"circuit.h"
+	<cmath>
+	<stdio.h>
+	<iostream>
+
