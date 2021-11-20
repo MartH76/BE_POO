@@ -94,24 +94,6 @@ void ordre_1 :: f_euler(float t,float pas){
 fclose(fich_vs);
 }
 
-/*
-void circuit_A :: f_euler(float t,float pas){
-    FILE * fich_vs;
-    fich_vs=fopen("vs","wt");
-    float t_int = 0;
-    while (t_int < t){
-        Ve = signal->Ve(t_int);
-        if (t_int == 0){
-            Vs = Vs_init;
-        }
-        Vs = Vs + pas*f_prim();
-        t_int = t_int + pas;
-        fprintf(fich_vs,"%e %f %f \n",t_int,Vs,Ve);
-}
-fclose(fich_vs);
-}
-*/
-
 circuit_B :: circuit_B(){
 }
 
@@ -131,22 +113,6 @@ float circuit_B :: f_prim(){
         return -Vs/(R2*C);
     }
 }
-/*
-void circuit_B :: f_euler(float t,float pas){
-    FILE * fich_vs;
-    fich_vs=fopen("vs","wt");
-    float t_int = 0;
-    while (t_int < t){
-        Ve = signal->Ve(t_int);
-        if (t_int == 0){
-            Vs = Vs_init;
-        }
-        Vs = Vs + pas*f_prim();
-        t_int = t_int + pas;
-        fprintf(fich_vs,"%e %f %f \n",t_int,Vs,Ve);
-}
-fclose(fich_vs);
-}*/
 
 void ordre_2 :: f_euler(float t,float s_pas){
     pas = s_pas;
@@ -182,23 +148,6 @@ circuit_C :: circuit_C(float saisie_Vs_init, float saisie_R, float saisie_L, flo
 float circuit_C :: f_second(){
     return -R/L*Vs_prim+(Ve - Vs)/(L*C);
 }
-/*
-void circuit_C :: f_euler(float t,float pas){
-    FILE * fich_vs;
-    fich_vs=fopen("vs","wt");
-    float t_int = 0;
-    while (t_int < t){
-        Ve = signal->Ve(t_int);
-        if (t_int == 0){
-            Vs = Vs_init;
-        }
-        Vs = Vs + pas*Vs_prim;
-        Vs_prim = Vs_prim + pas*f_second();
-        t_int = t_int + pas;
-        fprintf(fich_vs,"%e %f %f \n",t_int,Vs,Ve);
-}
-fclose(fich_vs);
-}*/
 
 circuit_D :: circuit_D(){
 }
@@ -215,24 +164,4 @@ circuit_D :: circuit_D(float saisie_Vs_init, float saisie_R, float saisie_L, flo
 float circuit_D :: f_second(){
     return ((Ve-Ve_buff)/pas-Vs_prim)/(R*C)-Vs/(L*C);
 }
-/*
-void circuit_D :: f_euler(float t,float pas){
-    FILE * fich_vs;
-    fich_vs=fopen("vs","wt");
-    float buffer;
-    float t_int = 0;
-    while (t_int < t){
-        buffer = Ve;
-        Ve = signal->Ve(t_int);
-        if (t_int == 0){
-            Vs = Vs_init;
-        }
-        Vs = Vs + pas*Vs_prim;
-        Ve_prim = (Ve - buffer)/pas;
-        Vs_prim = Vs_prim + pas*f_second();
-        t_int = t_int + pas;
-        fprintf(fich_vs,"%e %f %f \n",t_int,Vs,Ve);
-}
-fclose(fich_vs);
-}*/
 
