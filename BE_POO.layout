@@ -2,38 +2,77 @@
 <CodeBlocks_layout_file>
 	<FileVersion major="1" minor="0" />
 	<ActiveTarget name="Debug" />
-	<File name="circuit.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
+	<File name="main.cpp" open="1" top="1" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="4377" topLine="163" />
+			<Cursor1 position="238" topLine="0" />
 		</Cursor>
 	</File>
 	<File name="source.cpp" open="1" top="0" tabpos="3" split="0" active="1" splitpos="0" zoom_1="1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="2200" topLine="0" />
+			<Cursor1 position="2200" topLine="11" />
 		</Cursor>
 		<Folding>
+			<Collapse line="9" />
+			<Collapse line="14" />
+			<Collapse line="18" />
+			<Collapse line="21" />
+			<Collapse line="24" />
+			<Collapse line="30" />
+			<Collapse line="34" />
+			<Collapse line="37" />
 			<Collapse line="43" />
+			<Collapse line="74" />
+			<Collapse line="78" />
+			<Collapse line="85" />
+			<Collapse line="86" />
+			<Collapse line="101" />
+			<Collapse line="105" />
+			<Collapse line="111" />
+			<Collapse line="112" />
+			<Collapse line="124" />
+			<Collapse line="128" />
+			<Collapse line="133" />
+			<Collapse line="134" />
+			<Collapse line="137" />
 		</Folding>
 	</File>
-	<File name="source.h" open="1" top="1" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+	<File name="circuit.cpp" open="1" top="0" tabpos="4" split="0" active="1" splitpos="0" zoom_1="-1" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="462" topLine="15" />
+			<Cursor1 position="3595" topLine="0" />
+		</Cursor>
+		<Folding>
+			<Collapse line="65" />
+			<Collapse line="70" />
+			<Collapse line="76" />
+			<Collapse line="80" />
+			<Collapse line="96" />
+			<Collapse line="99" />
+			<Collapse line="107" />
+			<Collapse line="116" />
+			<Collapse line="135" />
+			<Collapse line="138" />
+			<Collapse line="147" />
+			<Collapse line="151" />
+			<Collapse line="154" />
+			<Collapse line="163" />
+		</Folding>
+	</File>
+	<File name="source.h" open="1" top="0" tabpos="2" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
+		<Cursor>
+			<Cursor1 position="462" topLine="41" />
 		</Cursor>
 	</File>
 	<File name="circuit.h" open="1" top="0" tabpos="5" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
 		<Cursor>
-			<Cursor1 position="615" topLine="0" />
+			<Cursor1 position="1803" topLine="0" />
 		</Cursor>
 		<Folding>
-			<Collapse line="2" />
 			<Collapse line="18" />
-			<Collapse line="48" />
-			<Collapse line="85" />
+			<Collapse line="27" />
+			<Collapse line="37" />
+			<Collapse line="46" />
+			<Collapse line="58" />
+			<Collapse line="69" />
 		</Folding>
-	</File>
-	<File name="main.cpp" open="1" top="0" tabpos="1" split="0" active="1" splitpos="0" zoom_1="0" zoom_2="0">
-		<Cursor>
-			<Cursor1 position="2091" topLine="55" />
-		</Cursor>
 	</File>
 </CodeBlocks_layout_file>
